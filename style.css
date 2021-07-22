@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'mo';
+    src: url('mo.woff-webfont.woff2') format('woff2'),
+         url('mo.woff-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'mo';
+    background-color: #181a1b;
+    color: #f2f7f8;
+}
+
+.name {
+    font-size: 18px;
+}
+
+div {
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.desc {
+    padding-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #3391ff;
+}
